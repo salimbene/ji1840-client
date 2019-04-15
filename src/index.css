@@ -1,0 +1,160 @@
+@import '../node_modules/carbon-components/css/carbon-components.min.css';
+
+.home::after {
+  content: '';
+  background: url('./images/ji1840.jpg') center center fixed;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bx--form-item {
+  margin-bottom: 1.5rem;
+}
+
+.cc--m5 {
+  margin: 5px;
+}
+.cc--mb25 {
+  margin-bottom: 25px;
+}
+.cc--users-form {
+  width: 100vh;
+  margin-top: 5vh;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 5vh;
+}
+.cc--units-form {
+  width: 100vh;
+  margin-top: 5vh;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 5vh;
+}
+
+.cc--expenses-grid {
+  width: 100%;
+  padding: 0;
+}
+
+.reset-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.table-10 {
+  font-size: 10px;
+}
+.table-12 {
+  font-size: 12px;
+}
+.table-14 {
+  font-size: 14px;
+}
+
+.page {
+  width: 20cm;
+  min-height: 28.7cm;
+  padding: 1cm;
+  /* margin: 1cm auto; */
+  border: 1px #d3d3d3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.scroll {
+  overflow: auto;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.clickable {
+  cursor: pointer;
+}
+
+.bb {
+  border: 1px blue solid;
+}
+.br {
+  border: 1px red solid;
+}
+.bg {
+  border: 1px green solid;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.login {
+  padding: 20px;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.adjust {
+  display: table;
+  margin: 0;
+}
+
+.registrar {
+  padding: 20px;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.models {
+  width: 50%;
+}
+.units {
+  width: 100%;
+}
+.expenses {
+  width: 80%;
+}
+
+.units--form {
+  width: 80%;
+}
+
+.center-children {
+  text-align: center;
+}
+
+.center-me {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.btn-center {
+  display: block;
+  width: 150px;
+}
+
+.label {
+  z-index: 1000;
+}
+.opacity {
+  opacity: 0.5;
+}
